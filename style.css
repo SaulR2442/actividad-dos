@@ -1,18 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     background: #f8fafc;
+    color: #64748b;
 }
 
 .barraNavegacion {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 15px 50px;
+    border-bottom: 1px solid #e2e8f0; 
 }
 
 .logo {
-    padding: 15px;
-    background: #10b981;
+    width: 20px;
+    height: 20px;
+    background-color: #10b981; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.letra {
+    color: #0f172a; 
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: auto; 
+}
+
+.barraNavegacion a {
+    text-decoration: none;
+    color: #64748b; 
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.barraNavegacion a:hover {
+    color: #1e293b;
 }
 
 .registrarse {
-    background: #10b981;
-
+    background-color: #10b981; 
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
 }
